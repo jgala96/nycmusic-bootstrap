@@ -1,15 +1,14 @@
 $font-stack:lato;
-$primary-color: #AFEEEE;
-
+$secondary-color:#4096ee;
+$primary-color:#AFEEEE;
 body{
-	background: -webkit-radial-gradient(#4096ee, $primary-color);
-    background: -o-radial-gradient(#4096ee, $primary-color);
-    background: -moz-radial-gradient(#4096ee, $primary-color);
-    background: radial-gradient(#4096ee, $primary-color);
+	background: -webkit-radial-gradient($secondary-color, $primary-color);
+    background: -o-radial-gradient($secondary-color, $primary-color);
+    background: -moz-radial-gradient($secondary-color, $primary-color);
+    background: radial-gradient($secondary-color, $primary-color);
 }
 .maintext{
- 	font-family:Lato;
-	text-shadow: 5px 5px 5px #FF0000;
+ 	font-family:$font-stack;
 	text-align:center;
 }
 .tab{
@@ -55,7 +54,7 @@ hr{
 }
 #vid{
 	width:100%;
-	background-color:#f4f489;
+	background-color:#eee;
 }
 .vid_jay{
 	padding:1.5%;
@@ -71,31 +70,9 @@ hr{
     width:100%;
     max-width:95%%;
     margin:0 auto;
-    background-color:#f4f489;
+    background-color:#eee;
 }
-
-.music-align{
-	padding:1em;
-	float:left;
-}/*
-#size{
-	width:100%;
-	background-color:red;
-	display:inline-block;
-}
-.genre{
-	width:100%;
-	margin:0 auto;
-}
-.eventspic{
-	width:100%;
-	max-width:25%;
-}
-.otherpic{
-	float:right;
-	width:100%;
-	max-width:21%;
-}
+/*
 .infoevents{
 	width:25%;
 	font:;
@@ -105,8 +82,8 @@ hr{
 	max-width:20%;
 	display:block;
 	margin:0 auto;
-
 }
+
 #wrapper{
 width:50%;
 margin:auto;
@@ -211,29 +188,7 @@ overflow:hidden;
 	max-width:98%;
 	margin:0 auto;
 }
-.eventsright{
-	margin:0 auto;
-	width:100%;
-	max-width:100%;
-}
-.eventsleft{
-	width:100%;
-	max-width:100%;
-	margin:0 auto;
-}
-.eventscenter{
-	margin:0 auto;
-	width:100%;
-	max-width:100%;
-}
-.events img {
-	width:100%;
-	padding:0;
-	margin:0;
-} 	
-.events-text{
-	width:110%;
-}
+
 #titleimg{
 	width:100%;
 	max-width:100%;
@@ -245,32 +200,6 @@ overflow:hidden;
 		max-width:30em;
 		display:block;
 		margin:0 auto;
-	}
-	#title{
-		padding:0 10% 0 0;
-	}
-	.eventsright{
-		float:right;
-		width:100%;
-		max-width:30%;
-	}
-	.eventsleft{
-		width:100%;
-		max-width:30%;
-		float:left;
-	}
-	.eventscenter{
-		margin:0 auto;
-		width:100%;
-		max-width:50%;
-	}
-	.events img {
-		width:100%;
-		padding:0;
-		margin:0;
-	} 	
-	.events-text{
-		width:110%;
 	}
 }
 */

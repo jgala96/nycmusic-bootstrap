@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Classical Music</title>
-	<link rel="stylesheet" type="text/css" href="../../css/styles.css">
+	<link href="../../css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../../stylesheets/css/styles.css">
 	<link rel="icon" href="../../images/favicon.png" type="image/png" sizes="16x16">
 	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
@@ -10,62 +11,73 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<nav class="tab">
-		<ul>
-			<li class="drop">
-				<div class="dropdownContain">
-					<div class="dropOut">
-						<ul>
-							<li><a href="../../index.html">HOME</a></li>
-							<li><a href="../country/index.html">Country</a></li>
-							<li><a href="../hiphop/index.html">Hip Hop</a></li>
-							<li><a href="../rb/index.html">R&#38;B</a></li>
-							<li><a href="../pop/index.html">Pop</a></li>
-							<li><a href="../rock/index.html">Rock</a></li>
-							<li><a href="../../blog/index.html">Blog</a></li>
-							<li><a href="../../about/index.html">About Us</a></li>
-						</ul>
-					</div>
-				</div>
-			
-			</li>
-		</ul>
-	</nav>
-	<header id="main">
-		<h1 class="maintext">Classical Music</h1>
-	</header>
-	<h2>Classical and Opera Events</h2>
-	<section id="upcoming">
-		<div class="eventsright">
-			<figure class="events">
-				<figcaption class="events-text">Music: Classical</figcaption> 
-				 <img class="events" src="images/rite.png" alt="Rites of Summer Music Festival">
-				 <figcaption class="events-text">Rites of Summer Music Festival<br>Location: Governors Island<hr>Date:August 9th<hr>Time:1:00pm<hr></figcaption>
-			</figure>
-			<figure class="events">
-				<figcaption class="events-text">Music: Classical</figcaption> 
-			 	<img class="events" src="images/opera.png" alt="Dell'Arte Opera Ensemble">
-				<figcaption class="events-text">Dell'Arte Opera Ensemble<br>Location: East 13th Street Theater<hr>Date:August 7th to 23rd<hr>Time:8:00pm<hr>Cost:&#36;35, Seniors and students &#36;20</figcaption>
-			</figure>
-		</div>
-		<div class="eventsleft">
-			<figure class="events">
-				<figcaption class="events-text">Music: Classical</figcaption> 
-				<img class="events" src="images/square.png" alt="Washington Square Music Festival">
-				<figcaption class="events-text">Washington Square Music Festival<br>Location:<br>Greenwich Village<hr>Date: Ausust 8th<hr>Time: 8:00pm</figcaption>
-			</figure>
-			<figure class="events">
-				<figcaption class="events-text">Music: Classical</figcaption> 
-				<img class="events" src="images/teseo.png" alt=" Teseo">
-				<figcaption class="events-text"> Teseo<br>Location: Alice Tully Hall at Lincoln Center<hr>Date:August 17th<hr>Time:3:00pm<hr>Cost:&#36;45 to &#36;85</figcaption>
-			</figure>
-		</div>
-		<div class="eventscenter">
-			<figure class="events">
-				<img class="events" src="images/bridge.png" alt="Bridgehampton Chamber Music Festival">
-				<figcaption class="events-text">Bridgehampton Chamber Music Festival<br>Location: Bridgehampton Presbyterian Church<hr>Date:August 6th<hr>Time:7:30pm<hr>Cost:&#36;40 to &#36;55</figcaption>
-			</figure>
-		</div>
-	</section>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Live Music</a>
+            </div>
+            <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              	<li><a href="../../index.html">Home</a></li>
+	            <li class="active"> <a class="tab">Classical</a></li>
+	            <li><a href="../country/index.html" class="tab">Country</a></li>
+	            <li><a href="../hiphop/index.html" class="tab">Hip Hop</a></li>
+	            <li><a href="../rb/index.html" class="tab">R&#38;B</a></li>
+	            <li><a href="../pop/index.html" class="tab">Pop</a></li>
+	            <li><a href="../rock/index.html" class="tab">Rock</a></li>
+	            <li><a href="../../blog/index.html" class="tab">Blog</a></li>
+	            <li><a href="../../about/index.html">About Us</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	<div class="jumbotron">
+        <h1>Classical Music</h1>
+        <p class="lead">Dive into the art music produced in the traditions of western music. Learn where classical music is playing throughout New York City.</p>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+      	<h1>Classical and Opera Events</h1>
+      </div>
+    </div>
+    
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-3">
+        	<h2>Music: Classical</h2>
+          <img src="images/rite.jpg" alt="Rites of Summer Music Festival" height="100%" width="100%">
+          <p>Rites of Summer Music Festival<br>Location: Governors Island<hr>Date:August 9th<hr>Time:1:00pm<hr></p>
+          <h2>Music: Classical</h2>
+          <img src="images/opera.png" alt="Dell'Arte Opera Ensemble" height="100%" width="100%">
+          <p>Dell'Arte Opera Ensemble<br>Location: East 13th Street Theater<hr>Date:August 7th to 23rd<hr>Time:8:00pm<hr>Cost:&#36;35, Seniors and students &#36;20<hr></p>
+        </div>
+        <div class="col-md-6">
+          <h2>Music: Classical</h2>
+          <img src="images/bridge.png" alt="Bridgehampton Chamber Music Festival" height="100%" width="100%">
+          <p>Bridgehampton Chamber Music Festival<br>Location: Bridgehampton Presbyterian Church<hr>Date:August 6th<hr>Time:7:30pm<hr>Cost:&#36;40 to &#36;55<hr></p>
+       </div>
+        <div class="col-md-3">
+          <h2>Music: Classical</h2>
+          <img src="images/square.png" alt="Washington Square Music Festival" height="100%" width="100%">
+          <p>Washington Square Music Festival<br>Location:<br>Greenwich Village<hr>Date: Ausust 8th<hr>Time: 8:00pm<hr></p>
+          <h2>Music: Classical</h2>
+          <img src="images/teseo.png" alt=" Teseo" height="100%" width="100%">
+          <p>Teseo<br>Location: Alice Tully Hall at Lincoln Center<hr>Date:August 17th<hr>Time:3:00pm<hr>Cost:&#36;45 to &#36;85<hr></p>
+        </div>
+      </div>
 </body>
 </html>
