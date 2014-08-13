@@ -2,70 +2,86 @@
 <html>
 <head>
 	<title>R&#38;B Music</title>
-	<link rel="stylesheet" type="text/css" href="../../css/styles.css">
+	<link href="../../css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../../stylesheets/css/styles.css">
 	<link rel="icon" href="../../images/favicon.png" type="image/png" sizes="16x16">
 	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
 	<meta name="keywords" content="Live Music, nyc music, music genre, nyc evets">
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<nav class="tab">
-		<ul>
-			<li class="drop">
-				<div class="dropdownContain">
-					<div class="dropOut">
-						<ul>
-							<li><a href="../../index.html">HOME</a></li>
-							<li><a href="../classical/index.html">Classical</a></li>
-							<li><a href="../country/index.html">Country</a></li>
-							<li><a href="../hiphop/index.html">Hip Hop</a></li>
-							<li><a href="../pop/index.html">Pop</a></li>
-							<li><a href="../rock/index.html">Rock</a></li>
-							<li><a href="../../blog/index.html">Blog</a></li>
-							<li><a href="../../about/index.html">About Us</a></li>
-						</ul>
-					</div>
-				</div>
-			
-			</li>
-		</ul>
-	</nav>
-	<header id="main">
-		<h1 class="maintext">R&#38;B Music</h1>
-	</header>
-	<h2>Upcoming Performances</h2>
-	<section id="rb">
-		<div class="eventsright">
-			<figure class="events">
-				<figcaption class="events-text">Music: R&#38;B</figcaption> 
-				 <img class="events" src="images/john.png" alt="John Legend">
-				 <figcaption class="events-text">John Legend<hr>Location: Barclays Center<hr>Date: August 6th<hr>Time:8:00pm<hr>Cost:&#36;40 to Cost:&#36;105</figcaption>
-			</figure>
-			<figure class="events">
-				<figcaption class="events-text">Music: R&#38;B</figcaption> 
-			 	<img class="events" src="images/ryan.png" alt="Ryan Leslie">
-				<figcaption class="events-text">Ryan Leslie<hr>Location: Bowery Ballroom<hr>Date:August 20th<hr>Time:9:00pm<hr>Cost:&#36;30, advance :&#36;30</figcaption>
-			</figure>
-		</div>
-		<div class="eventsleft">
-			<figure class="events">
-				<figcaption class="events-text">Music: R&#38;B</figcaption> 
-				<img class="events" src="images/freda.png" alt"Freda Payne">
-				<figcaption class="events-text"> Freda Payne<hr>Location: B.B. King Blues Club and Grill<hr>Date: August 9th<hr>Time: 8:00pm<hr>Cost:&#36;30</figcaption>
-			</figure>
-			<figure class="events">
-				<figcaption class="events-text">Music: R&#38;B</figcaption> 
-				<img class="events" src="images/lisa.png" alt=" Lisa Fischer">
-				<figcaption class="events-text"> Lisa Fischer<hr>Location: BAM at MetroTech Commons<hr>Date:August 7th<hr>Time:12:00pm</figcaption>
-			</figure>
-		</div>
-		<div class="eventscenter">
-			<figure class="events">
-				<img class="events" src="images/bad.png" alt="Bad Rabbits">
-				<figcaption class="events-text"> Bad Rabbits + Johnny Stimson + Spirit Animal + Kent Odessa<hr>Location: Brooklyn Night Bazaar<hr>Date:August 8th<hr>Time:8:00pm</figcaption>
-			</figure>
-		</div>
-	</section>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand tab">Live Music</a>
+            </div>
+            <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              	<li><a href="../../index.html">Home</a></li>
+	            <li><a class="tab" href="../classical/index.html">Classical</a></li>
+	            <li><a href="../country/index.html" class="tab">Country</a></li>
+	            <li><a href="../hiphop/index.html" class="tab">Hip Hop</a></li>
+	            <li class="active"><a class="tab">R&#38;B</a></li>
+	            <li><a href="../pop/index.html" class="tab">Pop</a></li>
+	            <li><a href="../rock/index.html" class="tab">Rock</a></li>
+	            <li><a href="../../blog/index.html" class="tab">Blog</a></li>
+	            <li><a href="../../about/index.html" class="tab">About Us</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	<div class="jumbotron" class="row">
+        <h1>R&#38;B Music</h1>
+        <p class="lead">Interested in listening to soul, funk, or disco music? Check out all the places in New York City to listen to contempory R&#38;B music!</p>
+    </div>
+
+    <div class="jumbotron" class="row">
+      <div class="container">
+      	<h1>Upcoming Performances</h1>
+      </div>
+    </div>
+    
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-3">
+        	<h2>Music: R&#38;B</h2>
+          <img src="images/john.png" alt="John Legend" height="100%" width="100%">
+          <p class="infoevents">John Legend<hr>Location: Barclays Center<hr>Date: August 6th<hr>Time:8:00pm<hr>Cost:&#36;40 to Cost:&#36;105<hr></p>
+          <h2>Music: R&#38;B</h2>
+          <img src="images/ryan.png" alt="Ryan Leslie" height="100%" width="100%">
+          <p class="infoevents">Ryan Leslie<hr>Location: Bowery Ballroom<hr>Date:August 20th<hr>Time:9:00pm<hr>Cost:&#36;30, advance :&#36;30<hr></p>
+        </div>
+        <div class="col-md-6">
+          <h2>Music: R&#38;B</h2>
+          <img src="images/bad.png" alt="Bad Rabbits" height="100%" width="100%">
+          <p class="infoevents">Bad Rabbits + Johnny Stimson + Spirit Animal + Kent Odessa<hr>Location: Brooklyn Night Bazaar<hr>Date:August 8th<hr>Time:8:00pm<hr></p>
+       </div>
+        <div class="col-md-3">
+          <h2>Music: R&#38;B</h2>
+          <img src="images/freda.png" alt"Freda Payne" height="100%" width="100%">
+          <p class="infoevents">Freda Payne<hr>Location: B.B. King Blues Club and Grill<hr>Date: August 9th<hr>Time: 8:00pm<hr>Cost:&#36;30<hr></p>
+          <h2>Music: R&#38;B</h2>
+          <img src="images/lisa.png" alt=" Lisa Fischer" height="100%" width="100%">
+          <p class="infoevents">Lisa Fischer<hr>Location: BAM at MetroTech Commons<hr>Date:August 7th<hr>Time:12:00pm<hr></p>
+        </div>
+      </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
 </body>
 </html>

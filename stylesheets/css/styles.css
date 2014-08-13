@@ -66,11 +66,11 @@ hr {
   margin: 0 auto;
   background-color: #eee; }
 
+.infoevents {
+  font-size: 2em;
+  font-family: lato; }
+
 /*
-.infoevents{
-	width:25%;
-	font:;
-}
 #me{
 	width:100%;
 	max-width:20%;
@@ -131,8 +131,8 @@ overflow:hidden;
 	width:100%;
 	max-width:100%;
 }
-
-
+*/
+/*
 @media only screen and (max-width: 450px) {
 
 	#me{
@@ -172,22 +172,21 @@ overflow:hidden;
 		overflow:hidden;
 	}
 } 
+*/
 @media only screen and (max-width: 800px) {
-	#nyc{
-	width:100%;
-	max-width:98%;
-}
-.vid_jay{
-	width:100%;
-	max-width:98%;
-	margin:0 auto;
-}
+  #nyc {
+    width: 100%;
+    max-width: 98%; }
 
-#titleimg{
-	width:100%;
-	max-width:100%;
-}
-} 
+  .vid_jay {
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto; }
+
+  #titleimg {
+    width: 100%;
+    max-width: 100%; } }
+/*
 @media only screen and (min-width: 800px) and (max-width: 1130px) {
 	.drop{
 		width:100em;

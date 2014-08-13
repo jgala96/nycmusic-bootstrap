@@ -72,11 +72,12 @@ hr{
     margin:0 auto;
     background-color:#eee;
 }
-/*
+
 .infoevents{
-	width:25%;
-	font:;
+	font-size:2em;
+	font-family:$font-stack;
 }
+/*
 #me{
 	width:100%;
 	max-width:20%;
@@ -137,8 +138,8 @@ overflow:hidden;
 	width:100%;
 	max-width:100%;
 }
-
-
+*/
+/*
 @media only screen and (max-width: 450px) {
 
 	#me{
@@ -178,22 +179,24 @@ overflow:hidden;
 		overflow:hidden;
 	}
 } 
+*/
 @media only screen and (max-width: 800px) {
 	#nyc{
 	width:100%;
 	max-width:98%;
-}
-.vid_jay{
-	width:100%;
-	max-width:98%;
-	margin:0 auto;
-}
+	}
+	.vid_jay{
+		width:100%;
+		max-width:98%;
+		margin:0 auto;
+	}
 
-#titleimg{
-	width:100%;
-	max-width:100%;
-}
+	#titleimg{
+		width:100%;
+		max-width:100%;
+	}
 } 
+/*
 @media only screen and (min-width: 800px) and (max-width: 1130px) {
 	.drop{
 		width:100em;
