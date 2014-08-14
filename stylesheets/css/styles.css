@@ -15,15 +15,6 @@ body {
   display: block;
   margin: 0 auto; }
 
-a li ul div div div:link {
-  color: black; }
-
-a li ul div div div:hover {
-  color: #0040FF; }
-
-a:active {
-  color: #0000FF; }
-
 hr {
   width: 40%; }
 
@@ -70,109 +61,18 @@ hr {
   font-size: 2em;
   font-family: lato; }
 
-/*
-#me{
-	width:100%;
-	max-width:20%;
-	display:block;
-	margin:0 auto;
-}
+.lead {
+  padding: 5%; }
 
-#wrapper{
-width:50%;
-margin:auto;
-overflow:hidden;
-}
-.ab{
-	float:left;
-	padding:1%;
-	width:100%;
-	max-width:22%;
-}
-.about{
-	width:100%;
-	max-width:20%;
-	display:block;
-	margin:0 auto;
-}
-#full{
-	height:20%;
-	width:100%;
-	background-color:#B0FF61;
-}
-#full1{
-	height:20%;
-	width:100%;
-	background-color:#f7a26a;
-}
-#full2{
-	height:20%;
-	width:100%;
-	background-color:#69f4eb;
-}
-.textabout{
-	font-family:$font-stack;
-}
-#blog{
-	display:block;
-	margin: 0 auto;
-	width:100%;
-	max-width:35%;
-}
-.fb{
-	width:100%;
-	max-width:100%;
-}
-.twitter{
-	width:100%;
-	max-width:100%;
-}
-.map{
-	width:100%;
-	max-width:100%;
-}
-*/
-/*
-@media only screen and (max-width: 450px) {
+.atext {
+  font-family: nunito;
+  text-align: center;
+  font-size: 3em; }
 
-	#me{
-		max-width:60%;
-	}
-	.ab{
-		max-width:23%;
-		margin:0 auto;
-	}
-	.about{
-		max-width:45%;
-	}
-	#wrapper{
-		width:95%;
-		margin:auto;
-		overflow:hidden;
-	}
-} 
-@media only screen and (min-width: 450px) and (max-width: 575px) {
-	.drop{
-		width:100em;
-		max-width:15em;
-		display:block;
-		margin:0 auto;
-	}
-} 
-@media only screen and (min-width: 450px) and (max-width: 800px) {
-	.ab{
-		max-width:23%;
-	}
-	.about{
-		max-width:25%;
-	}
-	#wrapper{
-		width:70%;
-		margin:auto;
-		overflow:hidden;
-	}
-} 
-*/
+.about {
+  display: block;
+  margin: 0 auto; }
+
 @media only screen and (max-width: 800px) {
   #nyc {
     width: 100%;
@@ -185,14 +85,8 @@ overflow:hidden;
 
   #titleimg {
     width: 100%;
-    max-width: 100%; } }
-/*
-@media only screen and (min-width: 800px) and (max-width: 1130px) {
-	.drop{
-		width:100em;
-		max-width:30em;
-		display:block;
-		margin:0 auto;
-	}
-}
-*/
+    max-width: 75%%; }
+
+  #vid {
+    display: block;
+    margin: 0 auto; } }
